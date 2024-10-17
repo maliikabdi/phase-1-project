@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch movies from database.json
     function fetchMovies() {
-        fetch('database.json') // Path to your database.json file
+        fetch('http://localhost:3000/movies') // Path to your database.json file
             .then(response => response.json())
             .then(data => {
                 movies = data; // Store fetched movies
