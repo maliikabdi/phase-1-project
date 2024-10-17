@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch movies from database.json
     function fetchMovies() {
-        fetch('http://localhost:3000/movies') // Path to your database.json file
+        fetch('https://phase-1-project-1nsy.onrender.com/movies') // Path to your database.json file
             .then(response => response.json())
             .then(data => {
                 movies = data; // Store fetched movies
