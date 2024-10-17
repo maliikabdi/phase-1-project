@@ -22,7 +22,6 @@
 - **CSS**: For styling the website and making it visually appealing.
 - **JavaScript**: For DOM manipulation, handling CRUD operations, and adding interactive elements.
 - **Fetch API**: To simulate server requests for movie data using a `database.json` file.
-- **Bootstrap**: For enhancing the design and layout (optional based on your design choices).
 
 ## live server 
 https://maliikabdi.github.io/phase-1-project/
