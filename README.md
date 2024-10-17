@@ -24,6 +24,9 @@
 - **Fetch API**: To simulate server requests for movie data using a `database.json` file.
 - **Bootstrap**: For enhancing the design and layout (optional based on your design choices).
 
+## live server 
+https://maliikabdi.github.io/phase-1-project/
+
 
 ## SUPPORT AND CONTACT DETAILS
 - ** Email **: lildarwish13158@gmail.com
