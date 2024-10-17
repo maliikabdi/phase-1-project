@@ -28,8 +28,8 @@
 ## SUPPORT AND CONTACT DETAILS
 - ** Email **: lildarwish13158@gmail.com
 ## license
-
-## copyyright(c) MaliikAbdi
+licensed under the MIT-License
+copyyright(c) MaliikAbdi
 
 
 
