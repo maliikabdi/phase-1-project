@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">SALAL FLIX</div>
+            <ul>
+                <li><a href="#movies-section">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Genre</button>
+                        <div class="dropdown-content">
+                            <a href="#" data-genre="All">All</a>
+                            <a href="#" data-genre="Action">Action</a>
+                            <a href="#" data-genre="Adventure">Adventure</a>
+                            <a href="#" data-genre="Drama">Drama</a>
+                            <a href="#" data-genre="Sci-Fi">Sci-Fi</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#add">Add Movies</a></li>
+
+            </ul>
+            <input type="text" id="search-bar" placeholder="Search for movies...">
+        </nav>
+    </header>
+
+    <main>
+        <section id="movies-section">
+            <!-- Movies will be loaded here -->
+        </section>
+
+        <div id="add" class="add-movie-form">
+            <h3>Add a Movie</h3>
+            <input type="text" id="new-movie-title" placeholder="Movie Title">
+            <input type="text" id="new-movie-year" placeholder="Year">
+            <input type="text" id="new-movie-genre" placeholder="Genre"> <!-- This can be used if needed -->
+            <input type="url" id="new-movie-trailer" placeholder="Trailer URL">
+            <input type="text" id="new-movie-description" placeholder="Description"> <!-- New description field -->
+            <input type="url" id="new-movie-poster" placeholder="Poster URL"> <!-- New poster field -->
+            <button id="add-movie-btn">Add Movie</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
